@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AfifaWulandariF55121057">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/txt_name"
+        android:text="THIS IS ME!"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:layout_below="@+id/txt_name"
+        android:text="AFIFA WULANDARI"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/afifa"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_description"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/img_photo"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:fontFamily="times new roman"
+        android:layout_marginStart="30dp"
+        android:text="Haloo, perkenalkan nama saya Afifa Wulandari. Biasanya sih dipanggil afifa, tapi ada
+juga yang manggil pipa pipo pipol pingpong pakpak dan lain-lain. Tapi panggil afifa aja ya, kan formal ygy :)
+Nahh, saya ini sekarang lagi kuliah di Universitas Tadulako Fakultas Teknik Jurusan Teknologi Informasi Prodi
+Teknik Informatika. Kalo kalian mau tau, Stambkuu itu F55121057. Yaps, angkatan 21! Baru 1 tahun ygy jadi
+sekarang sudah tau kan lagi menjalani semester berapa ^.^ Saya anak ke-5 dari 6 bersaudara, setengah lusin
+yahh ;) Jadi saya punya satu adek dan itu cowooo.. Yaudah segitu aja ges! Sampai Jumpa Lagiiii..!!! Baybay :*" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_description"
+        android:layout_margin="50dp"
+        android:text="ig : @afifawlndri"
+        android:textStyle="bold"/>
+</RelativeLayout>
